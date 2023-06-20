@@ -1,0 +1,102 @@
+img {
+    width: 5%;
+}
+
+body {
+    background-color: #541197;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.card form {
+    margin-top: 20px;
+}
+
+.card label {
+    display: block;
+    margin-bottom: 5    px;
+}
+
+.card input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+
+.card input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.card input[type="submit"]:last-child {
+    background-color: #f44336;
+}
+
+.navigation-bar {
+    margin-bottom: 20px; /* Agrega margen inferior */
+     /* Resto del código de la barra de navegación */
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation-bar li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.navigation-bar li a:hover {
+    background-color: #ccc;
+}
